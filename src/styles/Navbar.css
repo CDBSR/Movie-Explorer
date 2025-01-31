@@ -1,0 +1,21 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: cadetblue;
+    margin: 0;
+}
+.nav-left {
+    display: flex;
+    gap: 30px;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: rgb(81, 81, 249);
+}
